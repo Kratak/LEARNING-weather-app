@@ -1,18 +1,20 @@
 import * as React from 'react'
 import { BodyWrapper, MainArticle } from './components/body'
-import { StartButton } from './components/buttons'
+import Form from './components/form'
 import { HTMLglob } from './styles/globalStyles'
 
 class App extends React.Component {
   public render() {
     return (
-      <BodyWrapper>
-        <MainArticle>
-          <StartButton />
-          <HTMLglob />
-        </MainArticle>
-      </BodyWrapper>
-    );
+        <BodyWrapper>
+          <MainArticle>
+
+            <Form/>
+            <HTMLglob />
+          </MainArticle>
+        </BodyWrapper>
+   
+    )
   }
 }
 

@@ -1,6 +1,10 @@
 import { createGlobalStyle } from '../sc/styled-components'
 import { oneDark } from './globalColors'
 const HTMLglob = createGlobalStyle`
+  *{
+    box-sizing: border-box;
+  }
+  
   body {
     background-color: ${oneDark.background};
     color: ${oneDark.foreground};
