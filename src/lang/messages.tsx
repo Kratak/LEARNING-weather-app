@@ -11,7 +11,7 @@ const CONFIRM_BUTTON = {
 }
 
 const APP_TITTLE = {
-    ENG: `Forecast`,
+    ENG: `Check the Forecast`,
     PL: `Prognoza Pogody`
 }
 const APP_SUBTITL = {
