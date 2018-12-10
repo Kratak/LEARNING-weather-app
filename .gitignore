@@ -10,7 +10,8 @@
 /build
 
 # misc
-config.api.ts
+.firebaserc
+/.firebaserc
 
 .DS_Store
 .env.local

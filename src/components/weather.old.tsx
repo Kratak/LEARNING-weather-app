@@ -1,15 +1,15 @@
 // import * as React from 'react';
 // import { Component } from 'react';
 
-// // import { API, APIKEY } from '../config.api';
-// // import { WeatherData, UserInput } from '../type';
+// import { API, APIKEY } from '../api/config.api';
+// import { WeatherData, UserInput } from '../type';
 
-// // interface IProps { }
+// interface IProps { }
 
-// // interface IState {
-// //     loading: boolean;
-// // 	weatherData?: WeatherData;
-// // }
+// interface IState {
+//     loading: boolean;
+// 	weatherData?: WeatherData;
+// }
 
 // export default class Weather extends Component<any, any> {
 // 	constructor(props: any) {
@@ -72,12 +72,12 @@
 // 	}
 
 // 	render() {
-// 		// const loading = this.state.loading && <img src={loader} />;
+// 		const loading = this.state.loading && <img src={loader} />;
 
 //         const weatherDisplay = this.state.weatherData
-//         //  && (
-// 		// 	<WeatherDisplay weatherData={this.state.weatherData} />
-// 		// );
+//          && (
+// 			<WeatherDisplay weatherData={this.state.weatherData} />
+// 		);
 
 // 		return (
 // 			<>

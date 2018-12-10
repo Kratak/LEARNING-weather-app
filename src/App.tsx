@@ -35,8 +35,8 @@ class App extends React.Component<{}, Istate> {
   constructor(props: {}){
     super(props)
     this.state = {
-      CITY: "",
-      COUNTRY: "",
+      CITY: "Budapest",
+      COUNTRY: "Hungary",
       TEMP01: 0,
       DATE01: "",
       WEATHER01: "",
@@ -67,6 +67,7 @@ public getWeather(e:any){
   (error: any,response:any, body: any) => {
     const data = JSON.parse(body)
     console.log(data)
+    console.log(error)
     const temp01 = data.list[0].main.temp
     this.setState({
       TEMP01: temp01

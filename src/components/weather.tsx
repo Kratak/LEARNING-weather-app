@@ -12,7 +12,7 @@ border-style: solid;
 border-width: 2px; */
 
 width: 50%;
-height: 50%
+/* height: 50% */
 div{
 
 }
@@ -21,7 +21,7 @@ div{
 const ResultWrapper =  styled.div`
 
 width:100%;
-height:100%;
+/* height:1; */
 display: flex;
 flex-direction: row;
 flex-wrap: wrap;

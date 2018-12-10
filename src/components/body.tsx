@@ -9,8 +9,9 @@ background: linear-gradient(
     rgba(32,32,107,1) 20%, 
     rgba(0,212,255,1) 100%
     ); */
-height: 100vh;
+/* height: 100vh; */
 padding-top:50px;
+padding-bottom: 50px;
 /* padding: auto; */
 `;
 
@@ -34,6 +35,11 @@ text-align: center;
 
 height: 90%;
 width: 600px;
+
+
+  @media (max-width: 599px) {
+    width: 90vw;
+  }
 
 `
 
