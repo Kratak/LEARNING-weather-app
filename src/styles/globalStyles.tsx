@@ -1,19 +1,28 @@
 import { createGlobalStyle } from '../sc/styled-components'
 import { oneDark } from './globalColors'
+import one from './one.jpg'
 const HTMLglob = createGlobalStyle`
+  @import url('https://fonts.googleapis.com/css?family=Rozha+One');
   *{
     box-sizing: border-box;
+    /* background-color: ${oneDark.background}; */
+    color: ${oneDark.black};
+    font-family: 'Rozha One', serif;
+    margin: 0px;
+    
   }
   
   body {
-    background-color: ${oneDark.background};
-    color: ${oneDark.foreground};
+    background: url(${one});
     height: 100%;
-    margin: 0px;
     width: 100%;
   }
   button::-moz-focus-inner {
     border: 0;
+    /* color: ${oneDark.background} */
+  }
+  button{
+    color: ${oneDark.background}
   }
 `
 

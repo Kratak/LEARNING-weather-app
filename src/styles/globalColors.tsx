@@ -1,6 +1,7 @@
 const oneDark = 
 {
     background:   '#282c34',
+    backgroundGR: '#282c34',
     background02: '#3d434e',
     black:        '#282c34',
     blue:         '#61afef',

@@ -18,6 +18,20 @@ Also great credits goes to stakoverflow community and official docs.
 
 ## To do
 
+### Button
+To use the button, withouy messing with code just simple keframes to move him down
+out of visibility.
+###  Button /
+
+### Language/Metrics
+    Made on simple flags function
+    const flag = {
+        deafault: eng
+        switched: user choice
+    }
+    placeholder={CITY.flag}/>
+### Language/Metrics
+
 Icons from 
 https://openweathermap.org/weather-conditions
 Rain descriptions also
@@ -61,6 +75,13 @@ https://countrycode.org/
 
 
 ## Work log
+
+
+#### 08.12.2018 08:30 - 23:30 "version": "0.1.0"
+
+####### Api conctions
+
+
 
 #### 08.12.2018 08:30 - 23:30 "version": "0.1.0"
 
