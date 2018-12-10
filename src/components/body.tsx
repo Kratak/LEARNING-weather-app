@@ -21,8 +21,11 @@ const AppWrapper = styled.article`
 border-color: ${oneDark.foreground};
 border-style: solid;
 border-width: 4px; */
-
+background-color: rgb(163, 163, 194, .7) ;
 margin: auto;
+border: 1px solid;
+    
+box-shadow: 5px 10px rgb(163, 163, 194, .5);
 display: flex;
 flex-direction: column;
 

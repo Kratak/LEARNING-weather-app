@@ -6,7 +6,7 @@ const START_BUTTON = {
 }
 
 const CONFIRM_BUTTON = {
-    ENG : `Confirm`,
+    ENG : `CONFIRM`,
     PL: `Potwierdź`
 }
 
@@ -20,12 +20,12 @@ const APP_SUBTITL = {
 }
 
 const CITY = {
-    ENG: `city`,
-    PL: `miasto`
+    ENG: `City`,
+    PL: `Miasto`
 }
 
 const COUNTRY = {
-    ENG: `country`,
+    ENG: `Country`,
     PL: `państwo`
 }
 

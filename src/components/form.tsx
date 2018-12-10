@@ -6,7 +6,7 @@ import { oneDark } from '../styles/globalColors'
 
 const FormWrapper = styled.div`
 
-margin-top: 20px;
+margin-top: 5px;
 
 padding: 5px;
 
@@ -15,8 +15,13 @@ border-color: ${oneDark.foreground};
 border-style: solid;
 border-width: 2px; */
 
-width: 70%;
-min-height: 50px
+width: 100%;
+height: 150px
+h1{
+      padding:5 px;
+      height:70px;
+      
+}
 input, button{
 margin: 5px;
 }
