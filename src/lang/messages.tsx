@@ -1,14 +1,4 @@
- const LANG_FLAG = "ENG"
-
-const START_BUTTON = {
-    ENG : `START`,
-    PL: `Zacznij`
-}
-
-const CONFIRM_BUTTON = {
-    ENG : `CONFIRM`,
-    PL: `Potwierdź`
-}
+//  const LANG_FLAG = "ENG"
 
 const APP_TITTLE = {
     ENG: `Check the Forecast`,
@@ -19,9 +9,16 @@ const APP_SUBTITL = {
     PL: `Wpisz miasto oraz państawo żeby sprawdzić pogodę.`
 }
 
+const CELSIUS = `°C`
+
 const CITY = {
     ENG: `City`,
     PL: `Miasto`
+}
+
+const CONFIRM_BUTTON = {
+    ENG : `CONFIRM`,
+    PL: `Potwierdź`
 }
 
 const COUNTRY = {
@@ -29,5 +26,22 @@ const COUNTRY = {
     PL: `państwo`
 }
 
-export { START_BUTTON, CONFIRM_BUTTON, APP_TITTLE, APP_SUBTITL, CITY, COUNTRY }
-export default LANG_FLAG
+const METER_PER_SECOND = `m/s`
+
+const START_BUTTON = {
+    ENG : `START`,
+    PL: `Zacznij`
+}
+
+
+export { 
+    APP_SUBTITL, 
+    APP_TITTLE, 
+    CELSIUS,
+    CITY, 
+    CONFIRM_BUTTON, 
+    COUNTRY, 
+    METER_PER_SECOND,
+    START_BUTTON, 
+ }
+// export default LANG_FLAG

@@ -2,6 +2,8 @@ const APIKEY = `&APPID=8ec9cd1481cff1a1429f578805113d60`
 const API  = `http://api.openweathermap.org/data/2.5/forecast?`
 const CURRENT_WEATHER= 'weather/';
 const WEATHER_FORECAST = 'forecast/daily/';
+const ICON_LINK = `http://openweathermap.org/img/w/`
+const ICON_TYPE_FILE  = `.png`
 const UNITS = {
     METRICS:`&units=metric`,
     IMPERIALS: `&units=imperial`,
@@ -47,4 +49,14 @@ const ICONS = {
   
   
 
-export { API, APIKEY, UNITS, WIND, ICONS, CURRENT_WEATHER, WEATHER_FORECAST }
+export { 
+  API, 
+  APIKEY, 
+  CURRENT_WEATHER, 
+  ICONS,
+  ICON_LINK,
+  ICON_TYPE_FILE, 
+  WEATHER_FORECAST, 
+  WIND, 
+  UNITS, 
+}

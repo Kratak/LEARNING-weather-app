@@ -1,16 +1,16 @@
 ## Weather app
 
-To run app at localhost just
+To run an app at localhost just
 npm install
 
-To start app just
+To start an app just
 npm start
 
 npm test 
 for tests
 
 API comes from [openweathermap]
-API key is included, but of will dies, it's free for small trafic.
+An API key is included, but of will dies, it's free for small traffic.
 60 queries per minute.
 
 [openweathermap]: <https://openweathermap.org/>
@@ -24,7 +24,7 @@ API key is included, but of will dies, it's free for small trafic.
  - TypeScript
 
 I'm practicing with Scott Tolinski from [level] up tutorials
-Also great credits goes to stakoverflow community and official docs.
+Also, great credits goes to stakoverflow community and official docs.
 
 
 
@@ -33,6 +33,11 @@ Also great credits goes to stakoverflow community and official docs.
 
 
 ## Work log
+
+#### 10.12.2018 08:80 - 15:30 "version": "0.1.2"
+
+####### Refactor, icons
+
 
 #### 10.12.2018 08:30 - 22:30 "version": "0.1.1"
 
@@ -58,14 +63,14 @@ Also great credits goes to stakoverflow community and official docs.
 Entry of log, project setup.
 
 
-## To do
+## Todo
 
 #### Errors
     try catch to wrap whole functions
 #### Errors /
 
 #### Button
-To use the button, withouy messing with code just simple keframes to move him down
+To use the button, without messing with code just simple keyframes to move him down
 out of visibility.
 ####  Button /
 

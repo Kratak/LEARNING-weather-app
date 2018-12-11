@@ -43,7 +43,12 @@ width: 600px;
 
 `
 
+const WeatherDate = styled.div`
+color: ${oneDark.background};
+text-shadow: none;
+`
 
 
 
-export { BodyWrapper , AppWrapper }
+
+export { BodyWrapper , AppWrapper, WeatherDate }

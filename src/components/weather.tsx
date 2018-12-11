@@ -10,7 +10,7 @@ padding: 5px;
 border-color: ${oneDark.foreground};
 border-style: solid;
 border-width: 2px; */
-
+/* font-size: 22px; */
 width: 50%;
 /* height: 50% */
 div{

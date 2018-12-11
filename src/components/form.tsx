@@ -4,7 +4,7 @@ import styled from './../sc/styled-components'
 import { oneDark } from '../styles/globalColors'
 // import { CITY, COUNTRY, CONFIRM_BUTTON } from '../lang/messages'
 
-const FormWrapper = styled.div`
+const FormWrapper:any = styled.div`
 
 margin-top: 5px;
 
@@ -33,6 +33,7 @@ export default class Form extends Component<any, any> {
 	public render() {
 		return (
             <>
+            text
             </>
       )
 	}

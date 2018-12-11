@@ -11,7 +11,8 @@
 
 # misc
 .firebaserc
-/.firebaserc
+/.firebase
+/firebase
 
 .DS_Store
 .env.local
