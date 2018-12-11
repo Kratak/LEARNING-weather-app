@@ -34,6 +34,11 @@ Also, great credits goes to stakoverflow community and official docs.
 
 ## Work log
 
+#### 11.12.2018 16 - 22:30 "version": "0.1.3"
+
+####### Refactor, Redux conections
+
+
 #### 11.12.2018 08:80 - 15:30 "version": "0.1.2"
 
 ####### Refactor, icons

@@ -1,5 +1,12 @@
 import * as React from 'react'
 import * as request from 'request'
+import { applyMiddleware, createStore } from 'redux';
+import { Provider } from 'react-redux';
+import { composeWithDevTools } from 'redux-devtools-extension'
+// import { logger } from 'redux-logger'
+// import { save, load } from 'redux-localstorage-simple'
+import thunk from 'redux-thunk'
+
 import { AppWrapper, BodyWrapper, WeatherDate } from './components/body'
 import { 
   CITY, 
@@ -15,6 +22,17 @@ import { FormWrapper } from './components/form'
 import { WeatherWrapper, ResultWrapper } from './components/weather'
 import { describeWindSpeed } from './api/utilities'
 import { IAppState } from './types'
+import rootReduce from './rootReducer'
+
+const middleware = [thunk]
+
+
+const store = createStore(
+  rootReduce,
+  {},
+  composeWithDevTools(applyMiddleware(...middleware,)),
+  );
+
 
 class App extends React.Component<{}, IAppState> {
   constructor(props: {}){
@@ -55,7 +73,6 @@ class App extends React.Component<{}, IAppState> {
 
 public getWeather(e:any){
   e.preventDefault()
-
   request.get(`${API}q=${this.state.CITY},${this.state.COUNTRY},${APIKEY}${UNITS.METRICS}`,
   (error: any,response:any, body: any) => {
     const data = JSON.parse(body)
@@ -128,6 +145,7 @@ public getWeather(e:any){
     const wind04 = this.state.WIND04
     const wind04describe = this.state.WIND04describe
     return (
+      <Provider store={store}>
         <BodyWrapper>
           <AppWrapper>
             
@@ -206,7 +224,7 @@ public getWeather(e:any){
             </AppWrapper>
             <HTMLglob />
         </BodyWrapper>
-   
+        </Provider>
     )
   }
 }
