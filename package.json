@@ -6,15 +6,7 @@
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-router-dom": "^4.3.1",
-    "react-scripts-ts": "^4.0.8"
-  },
-  "scripts": {
-    "start": "react-scripts-ts start",
-    "build": "react-scripts-ts build",
-    "test": "jest --watchAll",
-    "eject": "react-scripts-ts eject"
-  },
-  "devDependencies": {
+    "react-scripts-ts": "^4.0.8",
     "@types/jest": "^23.3.10",
     "@types/node": "^10.12.12",
     "@types/react": "^16.7.13",
@@ -39,6 +31,15 @@
     "styled-components": "^4.1.2",
     "ts-jest": "^23.10.5",
     "typescript": "^3.2.1"
+    
+  },
+  "scripts": {
+    "start": "react-scripts-ts start",
+    "build": "react-scripts-ts build",
+    "test": "jest --watchAll",
+    "eject": "react-scripts-ts eject"
+  },
+  "devDependencies": {
   },
   "browserslist": [
     ">0.2%",

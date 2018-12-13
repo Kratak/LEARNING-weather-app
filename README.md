@@ -10,7 +10,7 @@ npm test
 for tests
 
 API comes from [openweathermap]
-An API key is included, but of will dies, it's free for small traffic.
+An API key is included, it's free for small traffic.
 60 queries per minute.
 
 [openweathermap]: <https://openweathermap.org/>
@@ -34,7 +34,18 @@ Also, great credits goes to stakoverflow community and official docs.
 
 ## Work log
 
-#### 11.12.2018 16 - 22:30 "version": "0.1.3"
+#### 13.12.2018 09:00-12:00 "version": "0.1.3"
+
+####### Redux 
+
+    getinput()
+        from inputs at form to redux
+    getweather()
+        data from redux passing to api
+        output on div
+
+
+#### 11.12.2018 16:00 - 22:30 "version": "0.1.3"
 
 ####### Refactor, Redux conections
 
