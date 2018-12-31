@@ -34,9 +34,9 @@ Also, great credits goes to stakoverflow community and official docs.
 
 ## Work log
 
-#### 31.12.2018 17:00-23:00 "version": "0.1.3"
+~~#### 31.12.2018 17:00-23:00 "version": "0.1.3"~~
 
-####### test
+~~####### test~~
 
 fix
 
